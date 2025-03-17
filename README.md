@@ -56,7 +56,7 @@
 
 ## 🔧 Yêu cầu ban đầu
 
-- **X**: Tài khoản X không có **Xác thực hai yếu tố**, mới thực hiện được auto login. Nếu không muốn, có thể tự login thủ công
+- **Tài khoản X**: không có **Xác thực hai yếu tố**, mới thực hiện được auto login. Nếu không muốn, có thể tự login thủ công
 
 ---
 
@@ -174,19 +174,19 @@ browser_manager.run_terminal(
 ```
 
 Đổi số `4` thành số bất kì
-**Lưu ý:**
-Hầu hết trường hợp bị lỗi là do quá trình load chậm khi chạy nhiều profile cùng lúc. Tuỳ thuộc vào tài nguyên máy tính và tốc độ internet, hãy điểu chỉnh con số thích hợp.
+
+**Lưu ý:** Hầu hết trường hợp bị lỗi là do quá trình load chậm khi chạy nhiều profile cùng lúc. Tuỳ thuộc vào tài nguyên máy tính và tốc độ internet, hãy điểu chỉnh con số thích hợp.
 
 ---
 
 ## 🎯 Tips
 
-### Tạo file token_tele.txt để theo dõi lỗi
+### 1️ Tạo file token_tele.txt để theo dõi lỗi
 
 - Mỗi dự án nên có một bot Telegram riêng, giúp theo dõi lỗi dễ dàng hơn.
 - **Hướng dẫn lấy token Telegram:** Truy cập [channel](https://t.me/+8o9ebAT9ZSFlZGNl), tìm bài viết `Cách lấy thông tin cho file token_tele.txt`.
 
-### Tự động hóa với một cú click (Chỉ áp dụng cho Windows)
+### 2️ Tự động hóa với một cú click (Chỉ áp dụng cho Windows)
 
 Thay vì phải mở code, mở CMD và gõ lệnh, bạn có thể tạo một file `.bat` để chạy chương trình nhanh chóng. Dưới đây là cách thực hiện:
 
@@ -224,7 +224,7 @@ REM Chạy Python trong môi trường ảo
 G:\venv_selenium\Scripts\python.exe demo.py --auto --headless
 ```
 
-#### 🔹 Chạy tự động bằng Windows Task Scheduler
+### 3️ Chạy tự động bằng Windows Task Scheduler
 
 1. Mở **Task Scheduler** bằng cách tìm kiếm trên Windows.
 2. Nhấn **Create Basic Task** và đặt tên cho task.
